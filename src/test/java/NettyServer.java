@@ -27,10 +27,13 @@ public class NettyServer {
 
                             // 添加内置的 String 解码器和编码器 (省去了处理 ByteBuf 的麻烦)
                             pipeline.addLast(new StringDecoder());
+                            //todo 添加Kyro的Decoder()
                             pipeline.addLast(new StringEncoder());
+                            //todo 添加Kyro的Encoder()
 
                             // 添加我们自己的业务处理逻辑
                             pipeline.addLast(new SimpleChannelInboundHandler<String>() {
+                                //todo 单独的业务处理类
                                 @Override
                                 protected void channelRead0(ChannelHandlerContext ctx, String msg) {
                                     // 打印接收到的消息
