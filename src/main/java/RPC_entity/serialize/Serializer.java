@@ -1,6 +1,4 @@
-package RPC_entity;
-
-import java.io.Serializable;
+package RPC_entity.serialize;
 
 public interface Serializer {
     /**

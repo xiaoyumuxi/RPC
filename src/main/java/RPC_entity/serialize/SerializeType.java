@@ -1,4 +1,4 @@
-package RPC_entity;
+package RPC_entity.serialize;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

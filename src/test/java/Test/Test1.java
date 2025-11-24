@@ -1,6 +1,6 @@
 package Test;
 
-import RPC_entity.JsonSerializer;
+import RPC_entity.serialize.JsonSerializer;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

@@ -1,4 +1,4 @@
-package RPC_entity;
+package RPC_entity.serialize;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
